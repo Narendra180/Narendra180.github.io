@@ -34,11 +34,11 @@ let introductoryContentDiv =
 let robotCircularBtn0 = 
                 document.querySelector(".robot-circular-btn-0");
 
-let robotCircularBtn = 
-                document.querySelector(".robot-circular-btn");
-
 let faqCon = 
         document.querySelector(".faq-con");
+
+let robotCircularBtn = 
+                document.querySelector(".robot-circular-btn");
         
 let faqH3 = 
     document.querySelector(".faq-h3");
