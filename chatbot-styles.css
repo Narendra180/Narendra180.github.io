@@ -125,7 +125,7 @@ html,body {
     z-index: 1;
     left: 38px;
 
-    transition: opacity 1s ease 2s;
+    transition: opacity 1s ease 1s;
     opacity: 0;
 }
 
