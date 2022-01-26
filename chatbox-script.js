@@ -49,17 +49,25 @@ let questionAndAnswersListLis =
 let startANewConversationBtn =                           
                         document.querySelector(".start-a-new-conversation-btn");
 
+function applyClasses() {
+    introductoryContentBackgroundImage.classList.add("show-ele");
+    introductoryContentDiv.classList.add("show-ele");
+    robotCircularBtn0.classList.add("show-ele");
+    faqCon.classList.add("show-ele");
+    robotCircularBtn.classList.add("show-ele");
+    faqH3.classList.add("show-ele");
+    questionAndAnswersListLis[0].classList.add("show-ele");
+    questionAndAnswersListLis[1].classList.add("show-ele"); 
+    questionAndAnswersListLis[2].classList.add("show-ele"); 
+    questionAndAnswersListLis[3].classList.add("show-ele"); 
+    startANewConversationBtn.classList.add("show-ele");
+}
 
-introductoryContentBackgroundImage.classList.add("show-ele");
-introductoryContentDiv.classList.add("show-ele");
-robotCircularBtn0.classList.add("show-ele");
-faqCon.classList.add("show-ele");
-robotCircularBtn.classList.add("show-ele");
-faqH3.classList.add("show-ele");
-questionAndAnswersListLis[0].classList.add("show-ele");
-questionAndAnswersListLis[1].classList.add("show-ele"); 
-questionAndAnswersListLis[2].classList.add("show-ele"); 
-questionAndAnswersListLis[3].classList.add("show-ele"); 
-startANewConversationBtn.classList.add("show-ele");
+// console.log(window)
+window.onload = () => {
+    // console.log("loaded")
+    applyClasses();
+}
+
 
 
